@@ -160,12 +160,14 @@ header{
 }
 
 .side_article img{
-  width: 35%;
+  width: 34%;
+  height: 200px;
+  margin-right: 8px;
 }
 
 .side_article_text{
   font-family: 'Roboto-Regular', sans-serif;
-  width: 65%;
+  width: 64%;
 }
 
 .side_article_text h3{
@@ -225,7 +227,70 @@ header{
   font-family: 'Roboto-Regular',sans-serif;
 }
 /*Thesis Section*/
+.thesis{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
 
+.main_thesis{
+  display: flex;
+  flex-flow: column wrap;
+  height: auto;
+  width: 59%;
+  margin-right: 12px;
+}
+
+.main_thesis video{
+  width: 100%;
+  height: 500px;
+}
+
+.main_thesis h5{
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.main_thesis h5,
+.main_thesis p{
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+.side_thesis{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 39%;
+  height: 575px;
+  margin-left: 12px;
+}
+
+.side_thesis_item{
+  display: flex;
+  padding: 16px;
+}
+
+.side_thesis_item img{
+  width: 35%;
+  height: 125px;
+}
+
+.side_thesis_text{
+  font-family: 'Roboto-Regular', sans-serif;
+  width: 65%;
+  margin-left: 16px;
+  word-wrap: normal;
+}
+
+.side_thesis_text h4{
+  font-weight: bold;
+}
 /*Footer Styles */
 /*Copyright */
 
