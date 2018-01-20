@@ -180,7 +180,50 @@ header{
   display: none;
 }
 /*Start Learning Section */
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 72px;
+}
 
+.title{
+  font-family: 'Roboto-Regular',sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto 32px auto;
+}
+
+.course_item{
+  display: flex;
+  flex-flow: column wrap;
+  width: 25%;
+  margin: 16px;
+  padding: 16px;
+}
+
+.course_item img{
+  height: auto;
+}
+
+.course_item h4{
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 16px 0px 8px 0px;
+}
+
+.course_item span{
+  margin: 8px 0px;
+}
+
+.course_item h4,
+.course_item span,
+.course_item p{
+  font-family: 'Roboto-Regular',sans-serif;
+}
 /*Thesis Section*/
 
 /*Footer Styles */
