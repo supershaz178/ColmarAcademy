@@ -159,7 +159,7 @@ header{
   margin: 8px 0px;
 }
 
-.side_article img{
+.pictures{
   width: 34%;
   height: 200px;
   margin-right: 8px;
@@ -312,10 +312,6 @@ footer{
   width: 10%;
 }
 
-#bottom_nav li{
-  margin: 5px;
-}
-
 #copyright,
 #bottom_nav{
   font-family: 'Roboto-Regular', sans-serif;
@@ -323,3 +319,96 @@ footer{
 }
 
 /*Footer Navigation*/
+#bottom_nav li{
+  margin: 5px;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 720px){
+  .top_nav{
+      display: none;
+  }
+
+  .logo h2{
+    display: none;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    width:30%;
+  }
+
+  header nav{
+    width: 70%;
+  }
+  .top_nav_mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+  }
+
+  .top_nav_mobile li{
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+  }
+
+  .banner{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .banner_text{
+    text-align: center;
+    align-items: center;
+  }
+
+  #button{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+
+  #main_article{
+    display: none;
+  }
+
+  .articles_side{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .side_article{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .pictures{
+    display: none;
+  }
+
+  .mobile_pics{
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  .course_item{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 16px 16px 24px 16px;
+    margin: 4px;
+  }
+  .course_item img,
+  .course_item span,
+  .course_item p{
+    display: none;
+  }
+}
