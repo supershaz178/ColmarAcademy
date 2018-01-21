@@ -292,6 +292,34 @@ header{
   font-weight: bold;
 }
 /*Footer Styles */
+footer{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  margin: 16px 24px;
+}
 /*Copyright */
+#copyright{
+  display: flex;
+  width: 90%
+}
+
+#bottom_nav{
+  display: flex;
+  list-style-type: none;
+  width: 10%;
+}
+
+#bottom_nav li{
+  margin: 5px;
+}
+
+#copyright,
+#bottom_nav{
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: .8rem;
+}
 
 /*Footer Navigation*/
