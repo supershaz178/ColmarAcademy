@@ -124,6 +124,13 @@ header{
   background-color: #1AA3FF;
   padding: 8px 0px;
   width: 50%;
+  transition: background-color 1s ease-in 200ms,
+              box-shadow 1s ease-in 200ms;
+}
+
+#button:hover{
+  background-color: #FF1A1A;
+  box-shadow: 5px 5px #666666;
 }
 /*Articles Section*/
 .articles{
@@ -158,6 +165,11 @@ header{
   flex-flow: wrap;
   width: 100%;
   margin: 8px 0px;
+  transition: background-color 1s linear 100ms;
+}
+
+.side_article:hover{
+  background-color: #000000;
 }
 
 .pictures{
@@ -169,16 +181,26 @@ header{
 .side_article_text{
   font-family: 'Roboto-Regular', sans-serif;
   width: 64%;
+  transition: color 1s linear 100ms;
 }
 
 .side_article_text h3{
   font-weight: bold;
   font-size: 1.4rem;
+  transition: color 1s linear 100ms;
 }
 
 .side_article_text a{
   color: #1A66FF;
+  transition: color 1s linear 100ms;
 }
+
+.side_article_text:hover,
+.side_article_text:hover h3,
+.side_article_text:hover a{
+  color: #FFFFFF;
+}
+
 .mobile_pics{
   display: none;
 }
